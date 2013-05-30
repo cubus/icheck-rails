@@ -9,7 +9,7 @@ License: [MIT License](http://opensource.org/licenses/MIT) (just like iCheck)
 
 Rails: 3.1 and up
 
-This gem's version reflects the version of iCheck it packages (currently 0.9)
+This gem's major and minor version reflects the version of iCheck it packages (currently iCheck 0.9 is packaged by icheck-rails 0.9.0.1)
 
 
 ## Installation
