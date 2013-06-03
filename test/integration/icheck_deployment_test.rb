@@ -7,9 +7,20 @@ describe "icheck asset pipeline integration" do
     page.text.must_include '(c) 2013 Damir Foy, http://damirfoy.com'
   end
 
-  it "should include jquery.icheck.js via the asset pipeline" do
-    visit '/assets/square/_all.css'
+  it "should include all themes for the Square skin via the asset pipeline" do
+    visit '/assets/icheck/square/_all.css'
     page.text.must_include 'iCheck plugin Square skin'
   end
+
+  it "should include blue theme for the Square skin via the asset pipeline" do
+    visit '/assets/icheck/square/blue.css'
+    page.text.must_include 'iCheck plugin Square skin, blue'
+  end
+
+  it "should include skin without color themes" do
+    visit '/assets/icheck/futurico/futurico.css'
+    page.text.must_include 'iCheck plugin Futurico skin'
+  end
+
 
 end
