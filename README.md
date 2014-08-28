@@ -1,5 +1,6 @@
 icheck-rails
 =======================
+[![Gem Version](https://badge.fury.io/rb/icheck-rails.svg)](http://badge.fury.io/rb/icheck-rails)
 
 [iCheck](http://damirfoy.com/iCheck/) is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto.
 This [Gem](http://rubygems.org/) packages iCheck for [Ruby](http://www.ruby-lang.org) on
@@ -11,6 +12,9 @@ Rails: 3.1 and up
 
 This gem's major and minor version reflects the version of iCheck it packages (currently iCheck 1.0.2 is packaged by icheck-rails 1.0.2.0)
 
+**Important**
+
+*If you are upgrading from iCheck version 0.9, the `jquery.icheck.js` and `zepto.icheck.js` files was removed and now it is just `icheck.js`*
 
 ## Installation
 
