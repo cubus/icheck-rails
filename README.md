@@ -9,7 +9,7 @@ License: [MIT License](http://opensource.org/licenses/MIT) (just like iCheck)
 
 Rails: 3.1 and up
 
-This gem's major and minor version reflects the version of iCheck it packages (currently iCheck 0.9 is packaged by icheck-rails 0.9.0.2)
+This gem's major and minor version reflects the version of iCheck it packages (currently iCheck 1.0.2 is packaged by icheck-rails 1.0.2.0)
 
 
 ## Installation
@@ -30,15 +30,12 @@ Include the javascript part:
 
 For Coffeescript
 
-    #= require 'jquery.icheck'
+    #= require 'icheck'
 
 For JavaScript
 
-    //= require 'jquery.icheck'
+    //= require 'icheck'
 
-or if you want to use Zepto
-
-    //= require 'zepto.icheck'
 
 Be sure to include JQuery or Zepto before requiring iCheck.
 
@@ -92,5 +89,3 @@ $(function(){
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
-
-

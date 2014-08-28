@@ -2,7 +2,9 @@
 ----------------------------------- */
 .icheckbox_futurico,
 .iradio_futurico {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 16px;
@@ -40,11 +42,8 @@
         background-position: -126px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_futurico,
     .iradio_futurico {
         background-image: url(/assets/icheck/futurico/futurico@2x.png);
