@@ -9,7 +9,7 @@
     padding: 0;
     width: 22px;
     height: 22px;
-    background: url(/assets/icheck/square/orange.png) no-repeat;
+    background: image-url("icheck/square/orange.png") no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -52,7 +52,7 @@
 @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-orange,
     .iradio_square-orange {
-        background-image: url(/assets/icheck/square/orange@2x.png);
+        background-image: image-url("icheck/square/orange@2x.png");
         -webkit-background-size: 240px 24px;
         background-size: 240px 24px;
     }

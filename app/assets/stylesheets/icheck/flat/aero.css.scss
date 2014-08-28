@@ -9,7 +9,7 @@
     padding: 0;
     width: 20px;
     height: 20px;
-    background: url(/assets/icheck/flat/aero.png) no-repeat;
+    background: image-url("icheck/flat/aero.png") no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -46,7 +46,7 @@
 @media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_flat-aero,
     .iradio_flat-aero {
-        background-image: url(/assets/icheck/flat/aero@2x.png);
+        background-image: image-url("icheck/flat/aero@2x.png");
         -webkit-background-size: 176px 22px;
         background-size: 176px 22px;
     }
