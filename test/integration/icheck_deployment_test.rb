@@ -4,7 +4,7 @@ describe "icheck asset pipeline integration" do
 
   it "should include jquery.icheck.js via the asset pipeline" do
     visit '/assets/jquery.icheck.js'
-    page.text.must_include '(c) 2013 Damir Foy, http://damirfoy.com'
+    page.text.must_include '(c) 2013 Damir Sultanov, http://fronteed.com'
   end
 
   it "should include all themes for the Square skin via the asset pipeline" do
