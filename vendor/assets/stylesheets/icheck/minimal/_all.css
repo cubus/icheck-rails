@@ -2,7 +2,9 @@
 ----------------------------------- */
 .icheckbox_minimal,
 .iradio_minimal {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -46,11 +48,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal,
     .iradio_minimal {
         background-image: url(/assets/icheck/minimal/minimal@2x.png);
@@ -62,7 +61,9 @@
 /* red */
 .icheckbox_minimal-red,
 .iradio_minimal-red {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -106,11 +107,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-red,
     .iradio_minimal-red {
         background-image: url(/assets/icheck/minimal/red@2x.png);
@@ -122,7 +120,9 @@
 /* green */
 .icheckbox_minimal-green,
 .iradio_minimal-green {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -166,11 +166,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-green,
     .iradio_minimal-green {
         background-image: url(/assets/icheck/minimal/green@2x.png);
@@ -182,7 +179,9 @@
 /* blue */
 .icheckbox_minimal-blue,
 .iradio_minimal-blue {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -226,11 +225,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-blue,
     .iradio_minimal-blue {
         background-image: url(/assets/icheck/minimal/blue@2x.png);
@@ -242,7 +238,9 @@
 /* aero */
 .icheckbox_minimal-aero,
 .iradio_minimal-aero {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -286,11 +284,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-aero,
     .iradio_minimal-aero {
         background-image: url(/assets/icheck/minimal/aero@2x.png);
@@ -302,7 +297,9 @@
 /* grey */
 .icheckbox_minimal-grey,
 .iradio_minimal-grey {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -346,11 +343,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-grey,
     .iradio_minimal-grey {
         background-image: url(/assets/icheck/minimal/grey@2x.png);
@@ -362,7 +356,9 @@
 /* orange */
 .icheckbox_minimal-orange,
 .iradio_minimal-orange {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -406,11 +402,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-orange,
     .iradio_minimal-orange {
         background-image: url(/assets/icheck/minimal/orange@2x.png);
@@ -422,7 +415,9 @@
 /* yellow */
 .icheckbox_minimal-yellow,
 .iradio_minimal-yellow {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -466,11 +461,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-yellow,
     .iradio_minimal-yellow {
         background-image: url(/assets/icheck/minimal/yellow@2x.png);
@@ -482,7 +474,9 @@
 /* pink */
 .icheckbox_minimal-pink,
 .iradio_minimal-pink {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -526,11 +520,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-pink,
     .iradio_minimal-pink {
         background-image: url(/assets/icheck/minimal/pink@2x.png);
@@ -542,7 +533,9 @@
 /* purple */
 .icheckbox_minimal-purple,
 .iradio_minimal-purple {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 18px;
@@ -586,11 +579,8 @@
         background-position: -180px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 1.5),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_minimal-purple,
     .iradio_minimal-purple {
         background-image: url(/assets/icheck/minimal/purple@2x.png);

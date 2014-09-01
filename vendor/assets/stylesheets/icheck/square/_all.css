@@ -2,7 +2,9 @@
 ----------------------------------- */
 .icheckbox_square,
 .iradio_square {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -46,11 +48,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square,
     .iradio_square {
         background-image: url(/assets/icheck/square/square@2x.png);
@@ -62,7 +61,9 @@
 /* red */
 .icheckbox_square-red,
 .iradio_square-red {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -106,11 +107,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-red,
     .iradio_square-red {
         background-image: url(/assets/icheck/square/red@2x.png);
@@ -122,7 +120,9 @@
 /* green */
 .icheckbox_square-green,
 .iradio_square-green {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -166,11 +166,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-green,
     .iradio_square-green {
         background-image: url(/assets/icheck/square/green@2x.png);
@@ -182,7 +179,9 @@
 /* blue */
 .icheckbox_square-blue,
 .iradio_square-blue {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -226,11 +225,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-blue,
     .iradio_square-blue {
         background-image: url(/assets/icheck/square/blue@2x.png);
@@ -242,7 +238,9 @@
 /* aero */
 .icheckbox_square-aero,
 .iradio_square-aero {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -286,11 +284,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-aero,
     .iradio_square-aero {
         background-image: url(/assets/icheck/square/aero@2x.png);
@@ -302,7 +297,9 @@
 /* grey */
 .icheckbox_square-grey,
 .iradio_square-grey {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -346,11 +343,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-grey,
     .iradio_square-grey {
         background-image: url(/assets/icheck/square/grey@2x.png);
@@ -362,7 +356,9 @@
 /* orange */
 .icheckbox_square-orange,
 .iradio_square-orange {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -406,11 +402,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-orange,
     .iradio_square-orange {
         background-image: url(/assets/icheck/square/orange@2x.png);
@@ -422,7 +415,9 @@
 /* yellow */
 .icheckbox_square-yellow,
 .iradio_square-yellow {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -466,11 +461,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-yellow,
     .iradio_square-yellow {
         background-image: url(/assets/icheck/square/yellow@2x.png);
@@ -482,7 +474,9 @@
 /* pink */
 .icheckbox_square-pink,
 .iradio_square-pink {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -526,11 +520,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-pink,
     .iradio_square-pink {
         background-image: url(/assets/icheck/square/pink@2x.png);
@@ -542,7 +533,9 @@
 /* purple */
 .icheckbox_square-purple,
 .iradio_square-purple {
-    display: block;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
     margin: 0;
     padding: 0;
     width: 22px;
@@ -586,11 +579,8 @@
         background-position: -216px 0;
     }
 
-/* Retina support */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (-moz-min-device-pixel-ratio: 1.5),
-       only screen and (-o-min-device-pixel-ratio: 3/2),
-       only screen and (min-device-pixel-ratio: 1.5) {
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
     .icheckbox_square-purple,
     .iradio_square-purple {
         background-image: url(/assets/icheck/square/purple@2x.png);
