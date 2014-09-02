@@ -1,5 +1,7 @@
+#### Please take a look at the excellent [rails-assets](https://rails-assets.org/) project before using this gem!
 icheck-rails
 =======================
+
 [![Gem Version](https://badge.fury.io/rb/icheck-rails.svg)](http://badge.fury.io/rb/icheck-rails)
 
 [iCheck](http://damirfoy.com/iCheck/) is a library for creating super customized checkboxes and radio buttons with JQuery & Zepto.
